@@ -7,5 +7,10 @@
 			"path": "dapp_code/emerald-dapp"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.words": [
+			"frontends",
+			"unoptimized"
+		]
+	}
 }

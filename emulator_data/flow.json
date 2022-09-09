@@ -1,0 +1,28 @@
+{	"emulators": {
+		"default": {
+			"port": 3569,
+			"serviceAccount": "emulator-account"
+		}
+	},
+	"contracts": {
+		"RicardoAlmeida": "/home/ricardoalmeida/Flow_projects/emerald_dao_beginner_dapp_submissions/Chapter3.0/contracts/RicardoAlmeida.cdc"
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "680fa28962650ef346a7edf23d63967b0fcf44958488d0d48f8539ece6e92eba"
+		}
+	},
+	"deployments": {
+		"emulator": {
+			"emulator-account": [
+				"RicardoAlmeida"
+			]
+		}
+	}
+}

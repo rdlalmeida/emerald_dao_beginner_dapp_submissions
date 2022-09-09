@@ -6,6 +6,7 @@ A good analogy to this system is a typical U.S pharmacy (the European ones are s
 Q2. Is in the name: global styles apply to all modules in the project where it is defined, while modular styling is limited to the module that it respects to. For example, if you have a website with 10 possible screens, while 9 are to be set with an orange banner and a gray background, while the remaining one needs a purple banner and a black background, the easiest way to achieve this is to set two styles: a global one with the orange banner and gray background and a modular one with the purple and black, ensuring that this modular one only applies to the page in question. Everything else defaults to the global style.
 
 Q3.
+
 ![image](https://user-images.githubusercontent.com/39467168/188745954-2e5f111e-f70d-4c95-a124-4a3abc859c1b.png)
 
 Q4. https://github.com/rdlalmeida/emerald_dao_beginner_dapp_submissions
