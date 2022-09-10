@@ -5,7 +5,8 @@
 		}
 	},
 	"contracts": {
-		"RicardoAlmeida": "/home/ricardoalmeida/Flow_projects/emerald_dao_beginner_dapp_submissions/Chapter3.0/contracts/RicardoAlmeida.cdc"
+		"RicardoAlmeida": "/home/ricardoalmeida/Flow_projects/emerald_dao_beginner_dapp_submissions/Chapter3.0/contracts/RicardoAlmeida.cdc",
+		"HelloWorld": "/home/ricardoalmeida/Flow_projects/emerald_dao_beginner_dapp_submissions/Chapter3.0/contracts/HelloWorld.cdc"
 	},
 	"networks": {
 		"emulator": "127.0.0.1:3569",
@@ -21,7 +22,8 @@
 	"deployments": {
 		"emulator": {
 			"emulator-account": [
-				"RicardoAlmeida"
+				"RicardoAlmeida",
+				"HelloWorld"
 			]
 		}
 	}
