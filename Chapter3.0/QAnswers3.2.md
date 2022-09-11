@@ -5,3 +5,7 @@ Q2. The `AuthAccount` Resource contains all the relevant information from the Ac
 Q3. The main difference is that `AuthAccount` is only accessible from within the `prepare` phase. Whatever manipulations and computations that need data from the signer's account need to happen in this step.
 
 Q4. 
+
+![image](https://user-images.githubusercontent.com/39467168/189494461-58f72e4a-81d5-4fcb-9156-ef2085a985a8.png)
+
+![image](https://user-images.githubusercontent.com/39467168/189494612-437e8031-23a7-4899-b576-c4d2a4ea34a3.png)
