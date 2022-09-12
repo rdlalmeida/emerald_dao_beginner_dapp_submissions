@@ -6,7 +6,8 @@
 	},
 	"contracts": {
 		"RicardoAlmeida": "/home/ricardoalmeida/Flow_projects/emerald_dao_beginner_dapp_submissions/emerald-dapp/flow/cadence/contracts/RicardoAlmeida.cdc",
-		"HelloWorld": "/home/ricardoalmeida/Flow_projects/emerald_dao_beginner_dapp_submissions/emerald-dapp/flow/cadence/contracts/HelloWorld.cdc"
+		"HelloWorld": "/home/ricardoalmeida/Flow_projects/emerald_dao_beginner_dapp_submissions/emerald-dapp/flow/cadence/contracts/HelloWorld.cdc",
+		"Chp3Day3": "../emerald-dapp/flow/cadence/contracts/Chp3Day3.cdc"
 	},
 	"networks": {
 		"emulator": "127.0.0.1:3569",
@@ -38,7 +39,7 @@
 		},
 		"testnet": {
 			"testnet-account": [
-				"HelloWorld"
+				"Chp3Day3"
 			]
 		}
 	}
