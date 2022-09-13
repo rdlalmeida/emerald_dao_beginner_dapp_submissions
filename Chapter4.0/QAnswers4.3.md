@@ -2,7 +2,23 @@ Q1. Code for the function that establishes a function call with several data typ
 
 ```javascript
 async function testTypes() {
-    const randomIndex = Math.floor(Math.random() * 8);
+
+    // Set the inputs to test
+    const a = '25'
+    const b = 'Does this work at all?'
+    const c = '14.33'
+    const d = '0xb7fb1e0ae6485cf6'
+    const e = false
+    const f = null
+    const g = [5, 4, 9]
+    const h = [
+      {key: 'Blocto', value: '0x82dd07b1bcafd968'},
+      {key: 'Dapper', value: '0x37f3f5b3e0eaf6ca'}
+    ]
+
+    const inputArray = [a, b, c, d, e, f, g, h]
+
+    const randomIndex = Math.floor(Math.random() * inputArray.length);
 
     const response = await fcl.query({
       cadence: `
@@ -36,19 +52,14 @@ async function testTypes() {
       }
       `,
       args: (arg, t) => [
-        arg('25', t.Int),
-        arg('Does this work at all?', t.String),
-        arg('14.33', t.UFix64),
-        arg('0xb7fb1e0ae6485cf6', t.Address),
-        arg(false, t.Bool),
-        arg(null, t.Optional(t.String)),
-        arg([5, 4, 9], t.Array(t.Int)),
-        arg(
-          [
-            {key: 'Blocto', value: '0x82dd07b1bcafd968'},
-            {key: 'Dapper', value: '0x37f3f5b3e0eaf6ca'}
-          ], t.Dictionary({key: t.String, value: t.Address})
-        ),
+        arg(a, t.Int),
+        arg(b, t.String),
+        arg(c, t.UFix64),
+        arg(d, t.Address),
+        arg(e, t.Bool),
+        arg(f, t.Optional(t.String)),
+        arg(g, t.Array(t.Int)),
+        arg(h, t.Dictionary({key: t.String, value: t.Address})),
         arg(randomIndex, t.Int)
       ]
     })
@@ -57,7 +68,6 @@ async function testTypes() {
     console.log("The " + (randomIndex - 1).toString() + "-th element of the type array is " + response)
   }
 
-  // Set the useEffect method to return a different, random type everytime the page is refreshed
   useEffect(() => {
     // executeScript()
     // readSimpleTest()
