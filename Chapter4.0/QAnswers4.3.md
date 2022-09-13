@@ -77,4 +77,4 @@ testTypes()
 
 Output from this code:
 
-![image](https://user-images.githubusercontent.com/39467168/190000855-905ca63b-d8c7-4eaf-9ee4-588bb1a80821.png)
+![image](https://user-images.githubusercontent.com/39467168/190004031-4b086280-0638-4592-8d57-54c65cbf9faf.png)
