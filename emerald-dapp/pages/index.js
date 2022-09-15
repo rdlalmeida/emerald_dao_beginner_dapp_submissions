@@ -243,7 +243,7 @@ async function readSimpleTest() {
 
     <div className={styles.welcome}>
       <h1 className={styles.title}>
-        Welcome to my <a href="https://academy.ecdao.org" target="_blank">Emerald DApp!</a>
+        Welcome to my <a href="https://academy.ecdao.org" target="_blank" rel="noreferrer">Emerald DApp!</a>
       </h1>
       <p>This is a DApp created by Ricardo Almeida, the unluckiest piece of shit in this freakin planet! (<i>ricardo.a#0803</i>).</p>
     </div>
