@@ -16,3 +16,16 @@ setTimeout(() => setTxStatus('Run Transactions'), 5000)
 
 Q3. The subscribe function allows us to connect the state change of an object (the submitted transaction in this case) to a variable (`res` in this case also) so that the variable gets updated whenever the object changes too. This allows for a more close following of a remote process by mirroring the state changes of a remote object into a local variable.
 
+Q4. 
+
+* 1. Changing the background to bright pink, because I like it when the eyes begin to burn after a second or two:
+
+![image](https://user-images.githubusercontent.com/39467168/190481456-50e29ffb-b239-4710-ac54-b537e34e24e8.png)
+
+* 2. Changing the font size in the button to the larger value that does not spill out of the button limits, because I don't like to wear spectacles:
+
+![image](https://user-images.githubusercontent.com/39467168/190481973-07a3bd3e-c512-410e-ab83-f591b76f7b49.png)
+
+* Changing the color of the welcome message to bright yellow to keep up with the Miami Vice theme that I have going on:
+
+![image](https://user-images.githubusercontent.com/39467168/190482958-9e44aeb7-632e-484a-8061-850052488e3f.png)
